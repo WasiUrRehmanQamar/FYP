@@ -1,0 +1,28 @@
+.container-fluid{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.collab-center {
+    margin: 0px 0px 0px 0px;
+    padding: 50px 150px 50px 150px;
+}
+img[alt='CPEC'] {
+    width: 400px;
+    height: auto;
+}
+@media only screen and (max-width: 900px) {
+    img[alt='CPEC'] {
+        width: 100%;
+        height: auto;
+    }
+    img {
+        padding-bottom: 50px;
+    }
+    .collab-center {
+        text-align: center !important;
+    }
+    .collab-center {
+        margin: 0px 0px 0px 0px;
+        padding: 30px 30px 30px 30px;
+    }
+}

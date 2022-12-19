@@ -1,0 +1,73 @@
+.bg-light {
+    background-color: #192f59 !important;
+}
+
+.nav-link {
+    color: #919bad !important;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+body {
+    font-family: "Poppins", sans-serif !important;
+}
+
+nav {
+    padding: 0px 100px 0px 100px !important;
+}
+
+a.student-portal {
+    background-color: #3db166;
+    color: white !important;
+    padding: 20px !important;
+}
+
+a.faculty-portal {
+    background-color: #0d98f0;
+    color: white !important;
+    padding: 20px !important;
+}
+
+a.campus {
+    background-color: #71333c;
+    color: white !important;
+    padding: 20px !important;
+}
+
+.top-nav {
+    padding: 20px 0px 20px 20px !important;
+}
+
+@media only screen and (max-width: 900px) {
+    nav {
+        padding: 0px !important;
+    }
+
+    .container-fluid {
+        padding: 0px !important;
+    }
+
+    button.navbar-toggler {
+        margin: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navbar-toggler:focus,
+    .navbar-toggler:active,
+    .navbar-toggler-icon:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
+    .navbar-toggler.navbar-toggler {
+        border-color: white;
+    }
+
+    .navbar-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
+}

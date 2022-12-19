@@ -1,0 +1,55 @@
+h6 {
+    font-weight: bold !important;
+    color: white;
+}
+
+.container-fluid {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.row {
+    margin: 0px 0px 0px 0px;
+}
+
+div.notice {
+    padding: 100px 0px 100px 0px;
+    text-align: center;
+    filter: grayscale(100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://a6e8z9v6.stackpathcdn.com/kingster/wp-content/uploads/2018/08/hp2-col-1.jpg');
+}
+
+div.upcoming {
+    padding: 100px 0px 100px 0px;
+    text-align: center;
+    filter: grayscale(100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://a6e8z9v6.stackpathcdn.com/kingster/wp-content/uploads/2018/08/hp2-col-2.jpg');
+}
+
+div.academic {
+    padding: 100px 0px 100px 0px;
+    text-align: center;
+    filter: grayscale(100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://a6e8z9v6.stackpathcdn.com/kingster/wp-content/uploads/2018/08/hp2-col-1.jpg');
+}
+
+div.career {
+    padding: 100px 0px 100px 0px;
+    text-align: center;
+    filter: grayscale(100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://a6e8z9v6.stackpathcdn.com/kingster/wp-content/uploads/2018/08/hp2-col-4.jpg');
+}
+
+i.fa-solid {
+    color: white;
+    font-size: 30px;
+    padding-bottom: 20px;
+}

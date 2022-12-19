@@ -1,0 +1,22 @@
+.each-slide-effect>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-size: 100% 550px;
+    height: 550px;
+}
+
+button.nav.default-nav {
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .each-slide-effect>div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+        height: 115px;
+    }
+}
